@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
+	padding-top: 100px;
 }
 
 .content-wrapper {
@@ -64,7 +65,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 0.8em;
-    line-height: 1.4;
+    line-height: 1.2;
     position: relative;
     overflow: hidden;
     text-align: left;
@@ -103,7 +104,9 @@ body {
 
 /* Đổi màu chữ highlight thành màu đỏ nổi bật */
 .highlight {
-    font-weight: 700;
+    font-weight: 750;
+    font-weight: 750;
+	font-size: 1.2em;
     color: #EF0039;
     display: block;
     margin-bottom: 5px;
