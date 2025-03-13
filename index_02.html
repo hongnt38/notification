@@ -23,24 +23,9 @@
             background-attachment: fixed;
             position: relative;
             padding-bottom: 150px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.432);  /* Thêm đổ bóng */
-            backdrop-filter: blur(8px);  /* Thêm hiệu ứng kính mờ */
-            border: 1px solid rgba(255, 255, 255, 0.2);  /* Thêm viền mỏng */
         }
 
-        .brand-footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #ddd8d873;
-            border-radius: 0 0 15px 15px;
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: calc(100% - 40px);
-            max-width: 560px;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-        }
+
 
         .container {
             max-width: 600px;
@@ -112,6 +97,12 @@
             padding: 15px;
             background-color: #ddd8d873;
             border-radius: 0 0 15px 15px;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 40px);
+            max-width: 560px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.432);  /* Thêm đổ bóng */
             backdrop-filter: blur(8px);  /* Thêm hiệu ứng kính mờ */
             border: 1px solid rgba(255, 255, 255, 0.2);  /* Thêm viền mỏng */
@@ -120,8 +111,17 @@
         .brand-footer img {
             max-width: 150px;
             height: auto;
-    
+        }
 
+        .brand-footer p:first-of-type {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            color: #EF0039;
+            font-size: 18px;
+            font-weight: 800;
+            margin-top: 10px;
+            font-family: 'Arial Black', Arial, sans-serif;
+            letter-spacing: 1px;
         }
 
         .brand-footer p:last-child {
