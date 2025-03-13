@@ -24,9 +24,6 @@
             position: relative;
             padding-bottom: 150px;
         }
-
-
-
         .container {
             max-width: 600px;
             margin: 0 auto;
@@ -172,12 +169,11 @@
         </div>
     </div>
     <script>
-            window.onload = function() {
-                const images = ['Popup-02.webp', 'Popup-04.webp'];
-                const randomImage = images[Math.floor(Math.random() * images.length)];
-                document.body.style.backgroundImage = `url('${randomImage}')`;
-            }
-        </script>
+        window.onload = function() {
+            const images = ['Popup-02.webp', 'Popup-04.webp'];
+            const randomImage = images[Math.floor(Math.random() * images.length)];
+            document.body.style.backgroundImage = `url('${randomImage}')`;
+        }
     </script>
 </body>
 </html>
