@@ -15,14 +15,14 @@
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f5f5f5;
-            background-image: url('Popup-02.webp');
+            /* background-image sẽ được set bởi JavaScript */
             background-size: contain;
             background-position: top center;
             background-repeat: no-repeat;
             min-height: 100vh;
             background-attachment: fixed;
             position: relative;
-            padding-bottom: 150px; /* Để tạo khoảng trống cho footer */
+            padding-bottom: 150px;
         }
 
         .brand-footer {
@@ -177,5 +177,13 @@
             </div>
         </div>
     </div>
+    <script>
+            window.onload = function() {
+                const images = ['Popup-02.webp', 'Popup-04.webp'];
+                const randomImage = images[Math.floor(Math.random() * images.length)];
+                document.body.style.backgroundImage = `url('${randomImage}')`;
+            }
+        </script>
+    </script>
 </body>
 </html>
