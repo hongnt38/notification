@@ -15,7 +15,7 @@
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f5f5f5;
-            /* background-image sẽ được set bởi JavaScript */
+            background-image: url('Popup-02.webp');
             background-size: contain;
             background-position: top center;
             background-repeat: no-repeat;
@@ -168,12 +168,6 @@
             </div>
         </div>
     </div>
-    <script>
-        window.onload = function() {
-            const images = ['Popup-02.webp', 'Popup-04.webp'];
-            const randomImage = images[Math.floor(Math.random() * images.length)];
-            document.body.style.backgroundImage = `url('${randomImage}')`;
-        }
-    </script>
+
 </body>
 </html>
